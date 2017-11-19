@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height='1024' width='1024' xmlns='http://www.w3.org/2000/svg' >
+<rect height='1024' width='1024' style='fill:#4000D0;' />
+<!--
+C
+R 60
+S 1 0.53
+T 800 0
+C
+R 60
+S 1 0.53
+R 120
+T 720 917
+C
+R 60
+S 1 0.53
+R 240
+T -32 387
+-->
+<polygon points='128,128 256,128 256,768 805,768 986,900 128,896' style='fill:#DDDDDD;stroke:#222222;stroke-width:4' />
+</svg>
