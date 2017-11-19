@@ -2,4 +2,6 @@
 *.zip
 *.tar.gz
 *.out
-elixir toys
+.DS_Store
+elixir toys/util
+elixir\ toys/util
