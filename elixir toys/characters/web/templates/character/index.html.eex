@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h2><%= gettext "Who would win?", name: @name %></h2>
+</div>
+
+<%= form_for @changeset, character_path(@conn, :create), fn f -> %>
+  <div class="form-group">
+    <%= text_input f, :name, placeholder: "Name", class: "form-control" %>
+    <%= text_input f, :strength, placeholder: "Strength", class: "form-control" %>
+    <%= text_input f, :agility, placeholder: "Agility", class: "form-control" %>
+    <%= text_input f, :intelligence, placeholder: "Intelligence", class: "form-control" %>
+    <%= text_input f, :arbitration, placeholder: "Arbitration", class: "form-control" %>
+    <%= text_input f, :resourcefulness, placeholder: "Resourcefulness", class: "form-control" %>
+    <%= text_input f, :magic, placeholder: "Magic", class: "form-control" %>
+  </div>
+<%= submit "Save Character", class: "btn btn-primary" %>
+<% end %>

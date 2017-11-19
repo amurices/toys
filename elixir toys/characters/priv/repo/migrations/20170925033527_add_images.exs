@@ -1,0 +1,7 @@
+defmodule Characters.Repo.Migrations.AddImages do
+  use Ecto.Migration
+
+  def change do
+
+  end
+end
