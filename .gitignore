@@ -1,0 +1,5 @@
+*.o
+*.zip
+*.tar.gz
+*.out
+elixir toys
