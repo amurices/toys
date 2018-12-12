@@ -7,3 +7,10 @@ https://brew.sh/
 # Adicionar autocomplete ao bash:
 brew install git bash-completion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
+
+# Terminal, shell melhores
+iTerm2
+zShell
+
+# Apps pra corrigir coisas do mac
+Scroll Reverser (para mouses fodidos)
