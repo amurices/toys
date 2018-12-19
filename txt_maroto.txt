@@ -8,9 +8,11 @@ https://brew.sh/
 brew install git bash-completion
 [ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion
 
-# Terminal, shell melhores
+# Aplicacoes (terminal, shell, spotlight etc) melhores
 iTerm2
 zShell
+Alfred
 
 # Apps pra corrigir coisas do mac
 Scroll Reverser (para mouses fodidos)
+Jumpcut (buffering de clipboard (cmd C cmd V))
