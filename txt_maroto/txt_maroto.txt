@@ -16,3 +16,8 @@ Alfred
 # Apps pra corrigir coisas do mac
 Scroll Reverser (para mouses fodidos)
 Jumpcut (buffering de clipboard (cmd C cmd V))
+
+# gitignore global
+nano ~/.gitignore_global (colocar coisas do .gitignore_global)
+git config --global core.excludesfile ~/.gitignore_global
+
