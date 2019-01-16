@@ -1,8 +1,9 @@
-# Instalar xcode command line tools
-possivelmente `xcode-select --install`
-
 # Instalar homebrew
 https://brew.sh/
+
+# Command line tools
+possivelmente `xcode-select --install`
+brew install ren
 
 # Adicionar autocomplete ao bash:
 brew install git bash-completion
