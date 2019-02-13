@@ -22,3 +22,12 @@ Jumpcut (buffering de clipboard (cmd C cmd V))
 nano ~/.gitignore_global (colocar coisas do .gitignore_global)
 git config --global core.excludesfile ~/.gitignore_global
 
+# Chunkwm
+https://koekeishiya.github.io/chunkwm/docs.html (ler artigo no final; instalar essa porra é um saco)
+
+# Nano as default editor w/ syntax highlighting (on git and for zshell I think. You can test this during setup)
+git config --global core.editor "nano"
+echo "export EDITOR=/usr/bin/nano" >> ~/.zshrc
+echo "export VISUAL=/usr/bin/nano" >> ~/.zshrc
+https://github.com/scopatz/nanorc
+
