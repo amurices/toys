@@ -16,5 +16,11 @@ CHIP PC {
     OUT out[16];
 
     PARTS:
-    // Put your code here:
+    // The logic has to be considered in reverse order as the if-else pseudocode above
+    Inc16(in=prev, out=inced);
+    Mux16(a=prev, b=inced, sel=inc, out=maybeInced);
+    Mux16(a=maybeInced, b=in, sel=load, out=maybeNew);
+    Mux16(a=maybeNew, b=false, sel=reset, out=maybeZeroed);
+    Or8Way(in[0]=inc, in[1]=load, in[2]=reset, out=shouldUpdate);
+    Register(in=maybeZeroed, load=shouldUpdate, out=prev, out=out);
 }

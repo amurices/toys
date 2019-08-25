@@ -9,10 +9,16 @@
  *                 else out does not change (out[t+1] = out[t])
  */
 
+ /**
+ * Data Flip-flop: out(t) = in(t-1) 
+ * where t is the current time unit, or clock cycle.
+ */
+
 CHIP Bit {
     IN in, load;
     OUT out;
 
     PARTS:
-    // Put your code here:
+    Mux(a=outDFF, b=in, sel=load, out=eitherInOrPreviousOut);
+    DFF(in=eitherInOrPreviousOut, out=out, out=outDFF);
 }
