@@ -13,6 +13,7 @@ brew install git bash-completion
 iTerm2
 zShell
 Alfred
+pLam (interpretador \-calculo)
 
 # Apps pra corrigir coisas do mac
 Scroll Reverser (para mouses fodidos)
