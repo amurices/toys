@@ -13,6 +13,7 @@ brew install git bash-completion
 iTerm2
 zShell
 Alfred
+diff-so-fancy -> git config --global core.pager "diff-so-fancy | less -RF"
 pLam (interpretador \-calculo)
 
 # Apps pra corrigir coisas do mac
